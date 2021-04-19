@@ -2,7 +2,7 @@ let doers = [
     {
         name: "Eddie Ruiz",
         position: "Software Engineer",
-        url: "https://www.facebook.com"
+        url: "https://www.youtube.com/embed/Uys5Y7iohrE"
 
     },
     {
@@ -18,3 +18,5 @@ let doers = [
 
     }
 ];
+
+doers.map(doer => PageTransitionEvent)

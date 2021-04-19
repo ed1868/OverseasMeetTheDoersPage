@@ -39,13 +39,18 @@ ul {
   }
 .doerImage{
     text-align: center;
-     width: 200px;
-  height: 200px;
+     width: 250px;
+  height: 250px;
   border-radius: 50%;
   /* overflow: hidden; */
   border: none;
  
       
+}
+
+.padding-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 #strike{
@@ -63,4 +68,9 @@ ul{
     list-style: none;
     margin-left: 20%;
 }
+  }
+
+  #joinUsButton{
+      background-color: #FF9A00;
+      color:white;
   }
