@@ -1,15 +1,42 @@
 body{
     color:black;
+    font-family: 'Montserrat', sans-serif;
 }
 
+#mainBackground{
+    
+  background-image: url(
+      './doersMain.png'
+  );
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 570px;
+}
+
+.headerOne{
+    color: #fff;
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+}
+
+.headerTwo{
+    color:#fff;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
 ul {
     list-style: none;
     margin-left: 33%;
-    /* columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2; */
+    font-size: 18px;
+
   }
 
+  .listTitle{
+      font-weight: bolder;
+      font-size: 22px;
+  }
 .doerImage{
     text-align: center;
      width: 200px;
