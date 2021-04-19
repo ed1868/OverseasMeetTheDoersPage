@@ -1,3 +1,31 @@
-h1{
-    color:red;
+body{
+    color:black;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+  }
+
+  #container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+/* it will calculate automatically, try space-between too */
+}
+
+#container ul {
+    
+    max-width: 50%;
+    list-style: none;
+}
+
+#strike{
+    text-decoration: line-through;
+}
+
+li{
+    padding-top:25px;
+    padding-left: 25%;
 }
