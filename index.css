@@ -3,22 +3,22 @@ body{
 }
 
 ul {
-    columns: 2;
+    list-style: none;
+    margin-left: 33%;
+    /* columns: 2;
     -webkit-columns: 2;
-    -moz-columns: 2;
+    -moz-columns: 2; */
   }
 
-  #container {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-/* it will calculate automatically, try space-between too */
-}
-
-#container ul {
-    
-    max-width: 50%;
-    list-style: none;
+.doerImage{
+    text-align: center;
+     width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  border: none;
+ 
+      
 }
 
 #strike{
@@ -27,5 +27,13 @@ ul {
 
 li{
     padding-top:25px;
-    padding-left: 25%;
+    
 }
+
+
+@media screen and (max-width: 600px) {
+ul{
+    list-style: none;
+    margin-left: 20%;
+}
+  }
