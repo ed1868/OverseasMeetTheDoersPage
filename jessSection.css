@@ -1,0 +1,9 @@
+#mainBackground{
+    background-image: url(
+        './two.png'
+    );
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 570px; */
+}
